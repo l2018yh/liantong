@@ -1,0 +1,130 @@
+body{
+    color: #f2f1ef;
+}
+header{
+    height: .49rem;
+    padding: 0 .14rem;
+    text-align: center;
+    line-height: .49rem;
+    background: #fff;
+    margin-bottom: 1px;
+}
+header .icon-mjiantou-copy{
+    font-size: .22rem;
+    color:#ff4c08;
+    float: left;
+}
+header p{
+    font-size: .16rem;
+    color:#0b0b0b;
+}
+/* 修改 */
+.xiug {
+    height: .66rem;
+    background: #fff;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: .14rem; */
+    padding:0 .16rem;
+}
+.xiug_left img{
+    float: left;
+    width: .52rem;
+    height: .52rem;
+    border-radius: 50%;
+}
+.xiug_left p{
+    float: right;
+    margin-left: .2rem;
+    font-size: .12rem;
+    color:#3f3f3f;
+    margin-top: .1rem;
+}
+.xiug_right img{
+    float: left;
+    margin-right: .16rem;
+}
+.xiug_right i{
+    color: #c4c4c4;
+    font-size: .14rem;
+    float: right;
+}
+.safe_a{
+    margin-bottom: .14rem;
+    margin-top: .14rem;
+}
+.safe {
+    height: .46rem;
+    padding:0 .14rem;
+    background: #fff;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:2px solid #e9e8e6;
+    border-bottom: 2px solid #e9e8e6;
+}
+.safe p:nth-child(1){
+    font-size: .14rem;
+    color:#22282b;
+}
+.safe p:nth-child(2){
+    font-size: .12rem;
+    color: #989898;
+}
+
+/* 开关样式 */
+.xf .checkbox {
+    display: none;
+}
+.xf .switch {
+    width: .5rem;
+    height: .3rem;
+    background: #4cda64;
+    border-radius: .2rem;
+    padding: .01rem;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: .1rem;
+}
+.xf .switch:after {
+    content: '';
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.15), 0 1px 1px 0 rgba(0,0,0,0.16), 0 3px 1px 0 rgba(0,0,0,0.10);
+    width: .28rem;
+    height: .28rem;
+    background: #fff;
+    border-radius: 50%;
+    display: block;
+    margin-left: .01rem;
+    float: right;
+    transition: all 0.5s;
+}
+.checkbox:checked+.switch:after {
+    margin-right: .2rem;
+}
+.checkbox:checked+.switch {
+    background: #ccc;
+}
+
+.safe_right span{
+    font-size: .14rem;
+    float: right;
+    color:#fe7200;
+}
+.clear{
+    margin:.14rem 0;
+}
+
+.end{
+    width: 90%;
+    height: .42rem;
+    background: #fff;
+    color: #fe7200;
+    font-size: .14rem;
+    display: -webkit-flex;
+    justify-content:center;
+    align-items: center;
+    margin:0 auto;
+    border-radius: .04rem;
+    margin:.15rem .15rem .3rem;
+}

@@ -1,0 +1,112 @@
+
+/* header */
+header{
+    position: relative;
+    background: #fff;
+    height: .46rem;
+    margin-top:1px;
+    margin-bottom: 2px;
+}
+header p{
+    line-height: .46rem;
+    font-size: .14rem;
+    text-align: center;
+}
+header img{
+    position: absolute;
+    right: .14rem;
+    top:.13rem;
+    width:.2rem;
+    height: .2rem;
+}
+.big_box{
+    position: relative;
+    display: -webkit-flex;
+    margin-top:1px;
+    margin-bottom: 1px;
+
+}
+.aside{
+    width: 20%;
+    height: 5.65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: .57rem;
+    /* position: fixed;
+    left:0;
+    top:.48rem; */
+}
+.aside li{
+    height:.57rem;
+    line-height: .57rem;
+    text-align: center;
+    display: block;
+    color:#696969;
+    font-size: .12rem;
+}
+.aside .act{
+    background: #fff;
+    border-left:5px solid #ff7743;
+    color:#ff7743;
+}
+.action{
+    width: 90%;
+    background: #fff;
+    position: relative;
+    flex: 1;
+    overflow-y:auto;
+}
+.action .right_a{
+    width: 100%;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+}
+.action .right_b{
+    display: block;
+}
+.top_a{
+    height: .57rem;
+    line-height: .57rem;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_a .sp{
+    height: 1px;
+    width: 1.03rem;
+    background: url("../img/xian.jpg") no-repeat;
+}
+.top_a span:nth-child(2){
+    font-size: .12rem;
+}
+.action_a{
+    width: 100%;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+.action_a img{
+    width:.24rem;
+    height: .24rem;
+}
+.top_b{
+    width:33%;
+    margin-bottom: .3rem;
+    flex-shrink: 0;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_b p{
+    font-size: .1rem;
+}

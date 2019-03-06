@@ -1,0 +1,159 @@
+body{
+    color: #f0eff4;
+}
+header{
+    height: .49rem;
+    padding: 0 .14rem;
+    text-align: center;
+    line-height: .49rem;
+    background: #fff;
+    margin-bottom: 1px;
+}
+header .icon-sousuo1{
+    font-size: .2rem;
+    color:#ff4c08;
+    float: right;
+}
+header p{
+    font-size: .16rem;
+    color:#0b0b0b;
+}
+.fixed{
+    flex: 1;
+    overflow-x: auto;
+}
+.nav{
+    width: 100%;
+    height: .42rem;
+    border-bottom: 1px solid #eee;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .14rem;
+    background: #fff;
+}
+.nav a{
+    color:#6f6f6f;
+    font-size:.14rem;
+}
+.nav a:hover{
+    color:#ff7b49;
+    font-size:.14rem;
+    border-bottom: .03rem solid #ff5516;
+}
+nav{
+    height: .8rem;
+    background: #fe2d23;
+    font-size: .1rem;
+    display:-webkit-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav .nav_a{
+    width: 16%;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav .nav_a a{
+    color:#feecc4;
+}
+nav .nav_b{
+    position: relative;
+    width: 8%;
+    border-top:.01rem dashed #fefdd1;
+}
+nav .icon-mjiantou-copy1{
+    position: absolute;
+    top:-.09rem;
+}
+nav .way{
+    background: #5c100d;
+    width: .64rem;
+    height: .12rem;
+    line-height: .12rem;
+    padding:.05rem;
+    position: absolute;
+    right: 0;
+    top:.12rem;
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+nav .way i{
+    float: left;
+    color:#fe6114;
+}
+/* 砍价领取福利 */
+.can{
+    height: .4rem;
+    width: 94%;
+    margin: 0 auto;
+}
+.can p{
+    color: #000;
+    font-size: .22rem;
+    line-height: .4rem;
+}
+.can span {
+    float: right;
+    color:#7f7e81;
+    font-size:.12rem;
+}
+.canjia li{
+    width: 94%;
+    margin:0 auto;
+    height: 1rem;
+    background: url("../img/canjia.jpg") no-repeat;
+    position: relative;
+    display: -webkit-flex;
+    align-items: center;
+    margin-top:.14rem;
+}
+.canjia_aa img{
+    margin:0 .14rem;
+}
+.canjia_bb h3{
+    font-size: .14rem;
+    color:#000;
+}
+.canjia_bb .yuan{
+    font-size:.12rem ;
+    color: #999;
+}
+.canjia_bb .xian{
+    font-size: .1rem;
+    color: #ccc;
+}
+.canjia li span{
+    color:#fff;
+    font-size:.1rem ;
+    padding: .04rem .06rem;
+    border-radius: .1rem;
+    background: #fe0f39;
+    position: absolute;
+    bottom: .08rem;
+    right: .07rem;
+}
+.cangoods{
+    width: 100%;
+    height: .54rem;
+    background: #fff;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cangoods span{
+    width:44%;
+    height:.44rem;
+    background:#fff;
+    color: #fe0f39;
+    font-size: .16rem;
+    border-radius: .06rem;
+    text-align: center;
+    line-height: .44rem;
+}
+.cangoods span:hover{
+    background: #fe0f39;
+    color:#fff;
+}
